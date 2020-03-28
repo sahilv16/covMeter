@@ -1,0 +1,109 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.background {
+    position:  absolute;
+    display:  block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+} 
+.nav{
+    margin: 0;
+    height: 100px;
+    /* display: inline-block; */
+    /* background-image: url("https://i.ytimg.com/vi/2v3YSRqWP0A/maxresdefault.jpg"); */
+}
+.nav h3{
+    margin-left: 0px;  
+    margin-top: 0;
+    margin-bottom: 0;
+    color: black;
+    padding: 10px;
+    font-size: 50px;
+   font-family: 'Monoton', cursive;
+}
+.inputs{
+    text-align: center;
+}
+
+.inputs input{ 
+    height: 30px;
+    width: 300px;
+    background-color: grey;
+    margin-top: 25px;
+    margin-left: 400xp;
+    border: none;
+    padding: 0px 12px;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    outline: none; 
+    text-decoration: none;
+    font-size: 20px;
+    opacity: 0.5;
+    color: black;
+}
+.inputs button{
+   
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    width: 80px;
+    border: 1px solid white;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+    outline: none;
+    color: black;
+    background-color: #DA0463;
+    transition: 1s;
+    font-size: 20px;
+}
+.heads{
+   /* margin-left: 400px; */
+   text-align: center;
+   margin-top: 100px;
+}
+
+.cards{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: #f8cde0;
+    opacity: 0.5;
+    margin: 50px;
+
+}
+.cards h5{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 10px;
+    opacity: 1;
+    color: black;
+}
+.country{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.cases{
+    color: yellowgreen;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.deaths{
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
