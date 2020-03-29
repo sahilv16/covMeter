@@ -1,8 +1,4 @@
-
-var countryName = document.getElementById("countryName").value
-console.log(countryName);
- 
-function result(){
+ function result(){
     var countryName = document.getElementById("countryName").value
 
     $.getJSON("https://corona.lmao.ninja/v2/historical/"+countryName, function(data){
